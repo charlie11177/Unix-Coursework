@@ -1,2 +1,5 @@
 #!/bin/bash
-grep -E 'Author|Content' $@ | wc -l | awk '{print $0/2}'
+for hotel in $@/*
+do
+	grep -E 'Author|Content' $hotel | wc -l | awk '{print $0/2}'
+done
