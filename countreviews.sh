@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -e '\<Author\>' $@ | wc -l
+grep -E 'Author|Content' $@ | wc -l | awk '{print $0/2}'
