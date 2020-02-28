@@ -1,0 +1,89 @@
+commit 6ac1774eabd0ab8a5fdc23339dd19f441db9225e
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Fri Feb 28 14:09:24 2020 +0000
+
+    Updated countreviews changed sed option. No change on output
+
+commit 4ae447efed7903211f86aab59a1abaa637c8be6a
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Fri Feb 28 13:22:10 2020 +0000
+
+    Updated countreviews to omit .dat from the filename
+
+commit 9453d80dd209006079d0f6ac3a220f651e08650a
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Thu Feb 27 12:14:21 2020 +0000
+
+    Updated countreviews to be more efficient. No longer creates a temporary .txt file in order to sort the data
+
+commit 618b003130ed6c59287a501f8cdb8660d144fd61
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Tue Feb 25 18:29:09 2020 +0000
+
+    Updated countreviews to sort the temporary txt file by amount of reviews and output
+
+commit 3215197b1d58f9c0a7774e38971b0b65bccd4576
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Tue Feb 25 18:27:16 2020 +0000
+
+    Fixed countreviews temporary txt file was created and removed for each file rather than for the collective
+
+commit c7a22b1d1e4104707fe057be5d23082ae8399bbf
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Tue Feb 25 17:14:52 2020 +0000
+
+    Updated countreviews to add each output to a temporary txt file then delete it when finished
+
+commit bbdd85f1eced71e8181638d7f45eee275c199af3
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Tue Feb 25 17:11:54 2020 +0000
+
+    Updated countreviews to output on one line
+
+commit 6bd6858b6ee2ace9062c2f1f5c948672f02888b9
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Tue Feb 25 17:05:41 2020 +0000
+
+    Updated countreviews to output the filename alongside the amount of reviews
+
+commit b59f01284f5ed10e27bf2f191f748d721d0b1328
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Tue Feb 25 16:42:52 2020 +0000
+
+    Extended countreviews to count the number of reviews for files in a folder
+
+commit 925e945b1cf6dde341d73b9e675f42c7e238d8ad
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Tue Feb 25 15:32:10 2020 +0000
+
+    Updated countreviews now counts reviews more securely
+
+commit 0a781d5930d0ea25b47fcd4f5989e919b5d9383c
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Tue Feb 25 15:29:28 2020 +0000
+
+    Updated countreviews now takes a filename and outputs the amount of reviews
+
+commit 5842b82df993adabdf3555a736ad0e532919d436
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Tue Feb 25 15:24:12 2020 +0000
+
+    Created countreviews.sh script
+
+commit 783f6cca237ff6b803aa8889fa5cc2f994b4093b
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Tue Feb 25 15:22:11 2020 +0000
+
+    Copied a single hotel data file into the root directory to test initial attempts
+
+commit fe3b5314482a7cdd2d6aa6a0c925aa2d7e80568a
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Tue Feb 25 15:19:11 2020 +0000
+
+    Downloaded and extracted the example data
+
+commit 253a30fb848be7f1982edc12e479d8415ba9d1fe
+Author: cg4g19 <cg4g19@soton.ac.uk>
+Date:   Fri Feb 21 15:04:55 2020 +0000
+
+    add README
